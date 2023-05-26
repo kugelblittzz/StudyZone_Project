@@ -11,18 +11,10 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-        <ImageView
-            android:id="@+id/imageId"
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:contentDescription="@string/todo"
-            android:src="@drawable/logo"/>
-
         <TextView
             android:id="@+id/titleId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imageId"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="40dp"
             android:fontFamily="@font/antic"
@@ -30,7 +22,7 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/welcomeActivityLoginButtonId"

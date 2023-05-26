@@ -117,10 +117,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="50dp"
                 android:fontFamily="monospace"
+                android:hapticFeedbackEnabled="true"
                 android:padding="10dp"
                 android:text="Save Changes"
                 android:textAllCaps="false"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="50dp" />
 
         </LinearLayout>
 

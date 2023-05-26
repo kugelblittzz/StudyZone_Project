@@ -35,7 +35,7 @@
                 android:theme="?attr/actionBarTheme"
                 app:navigationIcon="@drawable/ic_menu"
                 app:title="@string/app_name"
-                app:titleTextColor="@color/comb_1" />
+                app:titleTextColor="@color/comb_4" />
 
             <View
                 android:id="@+id/divider"
@@ -49,7 +49,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/toolbar"
-                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/button_bg"
                 android:padding="3dp"
                 tools:ignore="MissingConstraints">
@@ -69,19 +72,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ScrollID"
-                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
                 android:background="@drawable/button_bg"
+                android:elevation="10dp"
                 android:padding="3dp"
                 android:text="@string/post"
                 android:textColor="@color/white"
-                android:visibility="visible" />
+                android:textSize="24sp"
+                android:visibility="visible"
+                app:cornerRadius="20dp" />
 
             <TextView
                 android:id="@+id/division_bar_1"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_below="@id/applicationPostButtonID"
-                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
                 android:background="#BFBEBE" />
 
             <TextView
@@ -89,12 +101,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/division_bar_1"
-                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
                 android:background="@color/white"
-                android:fontFamily="monospace"
+                android:fontFamily="sans-serif-black"
                 android:text="@string/notice_board"
                 android:textAlignment="center"
-                android:textColor="@color/comb_1"
+                android:textColor="@color/comb_4"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
@@ -103,7 +118,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_below="@id/Heading_division_bar"
-                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
                 android:background="#BFBEBE" />
 
             <ProgressBar

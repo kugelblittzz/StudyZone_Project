@@ -13,18 +13,10 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp">
 
-        <ImageView
-            android:id="@+id/imageId"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:contentDescription="@string/todo"
-            android:src="@drawable/logo" />
-
         <TextView
             android:id="@+id/welcomeId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imageId"
             android:layout_marginTop="-20dp"
             android:fontFamily="@font/bungee"
             android:text="@string/hello_there_welcome_back"

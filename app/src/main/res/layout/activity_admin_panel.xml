@@ -40,7 +40,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Add Admin"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/adminPanelMakeGuestID"
@@ -52,16 +53,21 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Make a User Guest"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/adminPanelAddTeacherID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/adminPanelMakeGuestID"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:text="Add Teacher"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/adminPanelAddStudent"
@@ -73,7 +79,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Add Student"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/adminPanelSearchAllUsers"
@@ -85,7 +92,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="See all Users"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
 
         <Button
@@ -98,7 +106,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Change Class Join Link"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
     </RelativeLayout>
 

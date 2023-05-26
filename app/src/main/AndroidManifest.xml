@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sabikrahat.studyzone">
+    package="com.ilham.LearnTube">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -15,49 +15,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyZone">
         <activity
-            android:name=".teacher_panel.VideoListShowWithDeleteActivity"
+            android:name="com.ilham.LearnTube.teacher_panel.VideoListShowWithDeleteActivity"
             android:exported="false" />
         <activity
-            android:name=".student_panel.VideoListShowActivity"
+            android:name="com.ilham.LearnTube.student_panel.VideoListShowActivity"
             android:exported="false" />
         <activity
-            android:name=".student_panel.YoutubeVideoShowActivity"
+            android:name="com.ilham.LearnTube.student_panel.YoutubeVideoShowActivity"
             android:exported="false" />
         <activity
-            android:name=".admin_panel.SeeAllUsersActivity"
+            android:name="com.ilham.LearnTube.admin_panel.SeeAllUsersActivity"
             android:exported="false" />
         <activity
-            android:name=".teacher_panel.TeacherPanelActivity"
+            android:name="com.ilham.LearnTube.teacher_panel.TeacherPanelActivity"
             android:exported="false" />
         <activity
-            android:name=".student_panel.StudentPanelActivity"
+            android:name="com.ilham.LearnTube.student_panel.StudentPanelActivity"
             android:exported="false" />
         <activity
-            android:name=".admin_panel.AdminPanelActivity"
+            android:name="com.ilham.LearnTube.admin_panel.AdminPanelActivity"
             android:exported="false" />
         <activity
-            android:name=".authentication.ForgetPasswordActivity"
+            android:name="com.ilham.LearnTube.authentication.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".EditProfile"
+            android:name="com.ilham.LearnTube.EditProfile"
             android:exported="false" />
         <activity
-            android:name=".EditPostActivity"
+            android:name="com.ilham.LearnTube.EditPostActivity"
             android:exported="false" />
         <activity
-            android:name=".ViewProfile"
+            android:name="com.ilham.LearnTube.ViewProfile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.ilham.LearnTube.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".authentication.RegisterActivity"
+            android:name="com.ilham.LearnTube.authentication.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".authentication.LoginActivity"
+            android:name="com.ilham.LearnTube.authentication.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.ilham.LearnTube.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

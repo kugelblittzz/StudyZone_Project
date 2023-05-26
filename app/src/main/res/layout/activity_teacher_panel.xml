@@ -40,16 +40,21 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Take Class now"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/teacherPanelUploadLinkVideos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/teacherPanelTakeClassNow"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:text="Upload Youtube Links"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/teacherPanelSeeAllVideos"
@@ -61,7 +66,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="See List and Delete Videos"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:cornerRadius="10dp" />
 
     </RelativeLayout>
 

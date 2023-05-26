@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Study Zone</string>
+    <string name="app_name">LearnTube</string>
     <string name="Admin">admin</string>«
     <string name="Teacher">teacher</string>«
     <string name="Student">student</string>«
@@ -18,7 +18,7 @@
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="register_to_start_your_new_journey">Register to start your new Journey</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Welcome!</string>
     <string name="log_out">Log out</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
